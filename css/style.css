@@ -3,12 +3,199 @@ body {
 	min-width: 1000px;
 	margin: 0;
 	padding: 0;
-
 	font-family: 'Amaranth', Arial, sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	font-weight: 400;
 	color: #000000;
-
 	background-color: #ECEDED;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0, 0, 0, 0);
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+h2 {
+	font-size: 33px;
+	line-height: 28px;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+}
+
+.img {
+	max-width: 100%;
+	height: auto;
+}
+
+.button {
+	font: inherit;
+	text-align: center;
+	color: #ffffff;
+	vertical-align: middle;
+	text-transform: uppercase;
+	background-color: #ffffff;
+	border: none;
+}
+
+a.button {
+	padding: 8px 16px;
+	border-radius: 7px;
+}
+
+.border-gray {
+	border: 1px solid #D4D5D5;
+}
+
+
+.inner-border {
+	border: 1px solid #F7F7F7;
+	background-color: #EEEFEF;
+}
+
+.shadow {
+	box-shadow: 0px 10px 35px -20px #000000;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 50px;
+	/*	background-color: yellow;*/
+}
+
+/*Header*/
+.main-header {
+	min-height: 200px;
+	margin-bottom: 50px;
+}
+
+.header-management {
+	color: #000000;
+	background: linear-gradient(#F0F1F1, #C1C1C1);
+	min-height: 35px;
+	display: flex;
+	align-items: center;
+	min-width: 1000px;
+}
+
+.flex-header-management {
+	display: flex;
+	/*	flex-direction: row-reverse;*/
+	justify-content: flex-end;
+}
+
+.site-management {
+	list-style: none;
+}
+
+.site-management a {
+	color: #000000;
+	fill: #2F2F2F;
+}
+
+.site-management a:hover,
+.site-management a:focus {
+	fill: #F77007;
+}
+
+.site-management {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	width: 150px;
+	height: 15px;
+	justify-content: flex-end;
+	/*	justify-content: space-between;*/
+}
+
+.site-management li:nth-child(3) {
+	padding-left: 18px;
+	border-left: 1px solid #DFE0E0;
+}
+
+.site-management li:nth-child(2) {
+	padding: 0 18px;
+	border-left: 1px solid #DFE0E0;
+	border-right: 1px solid #C2C3C3;
+}
+
+.site-management li:nth-child(1) {
+	padding: 0 18px;
+	border-right: 1px solid #C2C3C3;
+}
+
+.footer-management {
+	color: #ffffff;
+	background-color: #1E1E1E;
+	min-width: 1000px;
+	background: radial-gradient(ellipse, #3E3E3E, #1E1E1E);
+	min-height: 163px;
+	border-top: 1px solid #EDEEEE;
+	border-bottom: 1px solid #EDEEEE;
+	display: flex;
+	align-items: center;
+}
+
+.footer-management p {
+	width: 300px;
+	height: 55px;
+	display: flex;
+	align-items: flex-end;
+	padding-bottom: 15px;
+}
+
+.flex-cont {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.main-header-logo {
+	width: 226px;
+	height: 70px;
+}
+
+.site-social {
+	list-style: none;
+}
+
+.site-social a {
+	color: #ffffff;
+	display: block;
+}
+
+.site-social {
+	margin: 0;
+	padding: 0;
+	min-height: 70px;
+	width: 300px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.site-social li {
+	padding-left: 20px;
 }

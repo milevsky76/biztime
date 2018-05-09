@@ -300,3 +300,95 @@ button.button-slider-3:hover,
 button.button-slider-3:focus {
 	background: linear-gradient(#F77815, #F03601);
 }
+
+.strategy-list {
+	list-style: none;
+}
+
+.strategy-list {
+	width: 649px;
+	height: 317px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.strategy-item:nth-child(1) {
+	background-color: #8A2795;
+	/*#A63EB0;*/
+	border-top: 6px solid #A63EB0;
+	background: radial-gradient(#D15CD6, #8A2795);
+}
+
+.strategy-item:nth-child(1) a {
+	color: #A63EB0;
+}
+
+.strategy-item:nth-child(2) {
+	background-color: #058C49;
+	/*#0AA868;*/
+	border-top: 6px solid #0AA868;
+	background: radial-gradient(#0FD39B, #058C49);
+}
+
+.strategy-item:nth-child(2) a {
+	color: #0AA868;
+}
+
+.strategy-item:nth-child(3) {
+	background-color: #F35003;
+	/*#F77007;*/
+	border-top: 6px solid #F77007;
+	background: radial-gradient(#FBA60A, #F35003);
+}
+
+.strategy-item:nth-child(3) a {
+	color: #F77007;
+}
+
+li.strategy-item {
+	color: #ffffff;
+	font-size: 33px;
+	line-height: 28px;
+}
+
+.strategy-item p {
+	padding: 0;
+	margin: 0;
+}
+
+li.strategy-item {
+	width: 153px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.strategy-item {
+	padding-top: 26px;
+	padding-left: 30px;
+	padding-right: 28px;
+	padding-bottom: 35px;
+
+}
+
+.strategy-item a {
+	font-size: 19px;
+	line-height: 28px;
+}
+
+p.strategy-text {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+}
+
+a.button:hover,
+a.button:focus,
+a.button:active {
+	background-color: #ECEDED;
+	/*#D4D5D5*/
+	color: #000000;
+}

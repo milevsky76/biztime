@@ -392,3 +392,62 @@ a.button:active {
 	/*#D4D5D5*/
 	color: #000000;
 }
+
+.news h2 {
+	padding-left: 30px;
+}
+
+.news h2 {
+	color: #a63eb0;
+}
+
+.news-list {
+	list-style: none;
+}
+
+.news-list {
+	list-style: none;
+	border: 1px solid #F7F7F7;
+	background-color: #EEEFEF;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400;
+}
+
+.news-list {
+	margin: 0;
+	padding: 30px 30px;
+}
+
+.news-item b {
+	font-weight: bold;
+}
+
+.news-item {
+	display: flex;
+	justify-content: space-between;
+}
+
+.news-item {
+	margin-bottom: 30px;
+}
+
+.news-item:last-child {
+	margin-bottom: 0;
+}
+
+.news-content {
+	width: 400px;
+	height: 151px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.news-content b,
+.news-content p {
+	padding: 0;
+	margin: 0;
+}

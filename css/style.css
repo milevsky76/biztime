@@ -451,3 +451,65 @@ a.button:active {
 	padding: 0;
 	margin: 0;
 }
+
+.services h2 {
+	color: #077ef7;
+}
+
+.services h2 {
+	padding-left: 30px;
+}
+
+.services-list {
+	list-style: none;
+}
+
+.services-list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: baseline;
+}
+
+.services-item p {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.services-item:nth-child(1),
+.services-item:nth-child(2) {
+	margin-bottom: 9px;
+}
+
+.services-item {
+	width: 318px;
+
+}
+
+.services-item .inner-border {
+	width: 275px;
+	padding: 14px 25px 20px 16px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.services-item .inner-border h3 {
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.services-content {
+	width: 166px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.services-content p {
+	padding: 0;
+	margin: 0;
+}

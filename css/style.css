@@ -571,3 +571,58 @@ a.button:active {
 .products-item:nth-child(3) {
 	margin-bottom: 9px;
 }
+
+.faq h2 {
+	color: #e40016;
+}
+
+.faq h2 {
+	padding-left: 30px;
+}
+
+.faq-list {
+	list-style: none;
+}
+
+.faq-list {
+	list-style: none;
+	border: 1px solid #F7F7F7;
+	background-color: #EEEFEF;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.faq-list b {
+	font-weight: bold;
+}
+
+.faq-list {
+	margin: 0;
+	padding: 25px 33px 25px 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.faq-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.faq-item b,
+.faq-item p {
+	margin: 0;
+	padding: 0;
+}
+
+.faq-item b {
+	margin-bottom: 10px;
+}
+
+li.faq-item {
+	margin-bottom: 25px;
+}
+
+li.faq-item:last-child {
+	margin-bottom: 0;
+}

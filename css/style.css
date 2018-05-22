@@ -626,3 +626,115 @@ li.faq-item {
 li.faq-item:last-child {
 	margin-bottom: 0;
 }
+
+.contacts {
+	margin-bottom: 70px;
+}
+
+.contacts h2 {
+	color: #f77007;
+}
+
+.contacts h2 {
+	padding-left: 30px;
+}
+
+.contacts-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.forma {
+	width: 428px;
+}
+
+.contacts-form {
+	border: 1px solid #F7F7F7;
+	background-color: #EEEFEF;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.contacts-form {
+	padding: 20px 30px 30px 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.contacts-form p {
+	margin: 0;
+	padding: 0;
+}
+
+.contacts-item input,
+.contacts-item-textarea textarea {
+	background-color: #F1F2F2;
+	border: 1px solid #D7D8D8;
+}
+
+.contacts-item p,
+.contacts-item b,
+.contacts-item label {
+	margin: 0;
+	padding: 0;
+}
+
+.contacts-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contacts-item input {
+	width: 262px;
+	height: 22px;
+}
+
+.contacts-item-textarea {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts-item-textarea textarea {
+	width: 258px;
+	height: 111px;
+	resize: none;
+}
+
+#contacts-mess {
+	margin-top: 3px;
+}
+
+input,
+textarea { 
+	outline-color: #F77007;
+}
+
+.buttons {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+}
+
+button.button {
+	padding: 3px 24px;
+	margin: 0;
+	border-radius: 7px;
+}
+
+button.clear {
+	background: linear-gradient(#8B8B8B, #4F4F4F);
+}
+
+button.send {
+	background: linear-gradient(#FBA519, #F77107);
+	margin-left: 10px;
+}
+
+button.button:hover,
+button.button:focus,
+button.button:active {
+	color: #000000;
+}

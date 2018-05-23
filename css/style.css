@@ -738,3 +738,56 @@ button.button:focus,
 button.button:active {
 	color: #000000;
 }
+
+.info {
+	width: 208px;
+}
+
+.info-list {
+	list-style: none;
+}
+
+.info-list {
+	list-style: none;
+	border: 1px solid #F7F7F7;
+	background-color: #EEEFEF;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0;
+	padding: 25px 24px 51px 24px;
+	display: flex;
+	flex-direction: column;
+}
+
+.info-item a {
+	color: #f77007;
+	text-decoration: underline;
+}
+
+.info-item b {
+	font-weight: bold;
+}
+
+.info-item p,
+.info-item span,
+.info-item b {
+	margin: 0;
+	padding: 0;
+}
+
+.info-item {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+
+}
+
+.info-item:last-child {
+	margin-bottom: 0;
+}
+
+li.info-item p {
+	display: flex;
+	justify-content: space-between;
+}

@@ -791,3 +791,48 @@ li.info-item p {
 	display: flex;
 	justify-content: space-between;
 }
+
+/*Footer*/
+.main-footer {
+	background-color: #1A1A1A;
+	min-height: 142px;
+}
+
+.main-footer p {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffffff;
+}
+
+.main-footer a {
+	color: #f77007;
+	text-decoration: underline;
+}
+
+.main-footer {
+	display: flex;
+	min-width: 1000px;
+	margin-bottom: 20px;
+}
+
+.main-footer p,
+.main-footer a {
+	margin: 0;
+	padding: 0;
+}
+
+a.main-footer-logo {
+	margin-right: 150px;
+	width: 226px;
+	height: 70px;
+}
+
+.footer-content {
+	display: flex;
+	align-items: center;
+}
+
+.footer-content p {
+	width: 380px;
+}
